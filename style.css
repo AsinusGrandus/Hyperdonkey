@@ -32,8 +32,8 @@ body {
 
 .magical-blob {
     background-color: white;
-    height: 400px;
-    width: 400px;
+    height: 30%;
+    width: 30%;
 
     position: absolute;
     background: linear-gradient(#8dff64, #5e6af0);

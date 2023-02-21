@@ -8,7 +8,7 @@ export class HackerEffect {
         this.element.dataset.value = this.text;
 
         this.element.classList.add("hacker-effect");
-        this.element.addEventListener('mouseover', event => {
+        this.element.addEventListener('pointerover', event => {
             let iterations = 0;
 
             const interval = setInterval(() => {

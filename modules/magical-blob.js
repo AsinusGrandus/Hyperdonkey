@@ -6,7 +6,7 @@ export class MagicalBlob {
         this.blob.id = `magical-blob-${this.trackingnumber}`;
         this.blob.classList.add('magical-blob');     
 
-        document.addEventListener('mousemove', (e) => {
+        document.addEventListener('pointermove', (e) => {
             const { clientX, clientY } = event;
 
             this.blob.animate({
